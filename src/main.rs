@@ -16,7 +16,6 @@ fn main() {
 }
 
 fn generate_guesses(number: u32) -> bool{
-    println!("inside the generate guesses function");
     let mut guess = String::new();
     println!("guess the number (0 - 10): ");
 
